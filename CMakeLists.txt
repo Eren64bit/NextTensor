@@ -7,4 +7,7 @@ add_library(NextTensor STATIC
         include/core/NextMetadata.h
         src/test/library.cpp
         include/utils/NextUtils.h
+        include/core/NextTensor.h
+        include/utils/DType.h
+        include/utils/Ops.h
 )
