@@ -24,7 +24,7 @@ namespace Next {
         return total;
     }
 
-    [[nodiscard]] inline size_t FlattenIndex(const std::vector<size_t>& strides, std::vector<size_t>& indices) {
+    [[nodiscard]] inline size_t FlattenIndex(const std::vector<size_t>& strides, const std::vector<size_t>& indices) {
         size_t FlattenIndex = 0;
         for (size_t i = 0; i < strides.size(); i++) {
             FlattenIndex += strides[i] * indices[i];
@@ -49,7 +49,7 @@ namespace Next {
 
         if (shape.empty()) return true;
 
-        for (int i = (int)strides.size() - 1; i >= 1; i--) {
+        for (int i = static_cast<int>(strides.size()) - 1; i >= 1; i--) {
             if (strides[i-1] != strides[i] * shape[i]) return false;
         }
         return true;
