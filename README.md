@@ -139,7 +139,7 @@ We welcome contributions from the community! Here's how you can get involved:
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## 👥 Authors & Contributors
-- **Maintainers**: [Your Name](https://github.com/Eren64bit)
+- **Maintainers**: [Eren64bit](https://github.com/Eren64bit)
 
 ## 🐛 Issues & Support
 - **Report Issues**: Open a new issue on the [GitHub Issues page](https://github.com/yourusername/NextTensor/issues).
