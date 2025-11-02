@@ -9,5 +9,6 @@ add_library(NextTensor STATIC
         include/utils/NextUtils.h
         include/core/NextTensor.h
         include/utils/DType.h
-        include/utils/Ops.h
+        include/utils/NextOps.h
+        include/utils/BroadcastUtils.h
 )
